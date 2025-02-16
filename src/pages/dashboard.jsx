@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { database } from "../config/firebaseConfig";
 import { ref, onValue } from "firebase/database";
 
-const RealtimeData = () => {
+const Dashboard = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const RealtimeData = () => {
   );
 };
 
-export default RealtimeData;
+export default Dashboard;

@@ -7,7 +7,7 @@ const FirebaseData = () => {
     const [data, setData] = useState(null);
     const [isFall, setIsFall] = useState(false);
     const [audioEnabled, setAudioEnabled] = useState(false);
-
+console.log({data})
     const audioPlayer = useRef(new Audio(NotificationSound)); // ✅ Creates a persistent Audio instance
 
     useEffect(() => {
